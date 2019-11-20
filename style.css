@@ -1,0 +1,42 @@
+/* Regole Generali */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .row {
+    height: 12%;
+  }
+  
+  .row > .col {
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .row > .col:hover {
+    cursor: pointer;
+  }
+
+  .nohover {
+    pointer-events: none;
+  }
+  
+  .verde {
+    background-color: green;
+  }
+  
+  .giallo {
+    background-color: yellow;
+  }
